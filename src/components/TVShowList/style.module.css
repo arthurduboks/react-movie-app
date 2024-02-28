@@ -1,0 +1,20 @@
+.title {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list:hover {
+  overflow: overlay;
+}
+
+.list {
+  display: flex;
+  width: 100vw -25px;
+  overflow-x: auto;
+  padding-bottom: 30px;
+}
+
+.show_item {
+  margin-right: 10px;
+}
